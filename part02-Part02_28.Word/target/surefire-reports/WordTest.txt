@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: WordTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.246 sec <<< FAILURE!
+test1(WordTest)  Time elapsed: 0.109 sec  <<< FAILURE!
+java.lang.AssertionError: Method word() of class Word missing.
+	at fi.helsinki.cs.tmc.edutestutils.ReflectionUtils.requireMethod(ReflectionUtils.java:305)
+	at fi.helsinki.cs.tmc.edutestutils.Reflex$MethodRef.getMethod(Reflex.java:529)
+	at fi.helsinki.cs.tmc.edutestutils.Reflex$MethodRef.invokeMethodOn(Reflex.java:603)
+	at fi.helsinki.cs.tmc.edutestutils.Reflex$MethodRef.invokeMethod(Reflex.java:594)
+	at fi.helsinki.cs.tmc.edutestutils.Reflex$MethodRef.invokeImpl(Reflex.java:565)
+	at fi.helsinki.cs.tmc.edutestutils.Reflex$MethodRef0.invoke(Reflex.java:729)
+	at WordTest.test1(WordTest.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
