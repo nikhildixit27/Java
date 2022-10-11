@@ -3,25 +3,25 @@ public class AdvancedAstrology {
 
     public static void printStars(int number) {
         // part 1 of the exercise
-    for(int i=1;i<=number;i++){
-        System.out.print("*");
+        for(int i=1;i<=number;i++){
+            System.out.print("*");
+        }
+        System.out.println();
     }
-    System.out.println();
-}
 
     public static void printSpaces(int number) {
         // part 1 of the exercise
-    for(int i=1;i<=number;i++){
-        System.out.print(" ");
+        for(int i=1;i<=number;i++){
+            System.out.print(" ");
+        }
     }
-}
         
 
     public static void printTriangle(int size) {
         // part 2 of the exercise
-    for(int i=1;i<=size;i++){
-        printSpaces(size-i);
-        printStars(i);    
+        for(int i=1;i<=size;i++){
+            printSpaces(size-i);
+            printStars(i);    
         }
     }
 
@@ -29,8 +29,8 @@ public class AdvancedAstrology {
         // part 3 of the exercise          
         
         for(int i = 0; i <= height; i++) {
-        printSpaces(height-i);
-        printStars(i*2 + 1);
+            printSpaces(height-i);
+            printStars(i*2 + 1);
         }
         for(int i=1;i<3;i++){
             printSpaces(height-2);

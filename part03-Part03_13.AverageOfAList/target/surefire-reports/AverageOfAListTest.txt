@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: AverageOfAListTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.585 sec <<< FAILURE!
-test(AverageOfAListTest)  Time elapsed: 0.136 sec  <<< FAILURE!
-java.lang.AssertionError: The output should be of the type "Average: -12.0". Now you printed: Average: -23
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.563 sec <<< FAILURE!
+test(AverageOfAListTest)  Time elapsed: 0.11 sec  <<< FAILURE!
+java.lang.AssertionError: The output should be of the type "Average: -12.0". Now you printed: Average: -28
 
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.assertTrue(Assert.java:41)

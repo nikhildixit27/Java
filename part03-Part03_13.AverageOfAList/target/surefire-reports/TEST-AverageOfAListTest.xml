@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="AverageOfAListTest" time="0.136" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="AverageOfAListTest" time="0.11" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.16.1+1"/>
@@ -64,9 +64,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="AverageOfAListTest" name="test" time="0.136">
-    <failure message="The output should be of the type &quot;Average: -12.0&quot;. Now you printed: Average: -23
-" type="java.lang.AssertionError">java.lang.AssertionError: The output should be of the type &quot;Average: -12.0&quot;. Now you printed: Average: -23
+  <testcase classname="AverageOfAListTest" name="test" time="0.11">
+    <failure message="The output should be of the type &quot;Average: -12.0&quot;. Now you printed: Average: -28
+" type="java.lang.AssertionError">java.lang.AssertionError: The output should be of the type &quot;Average: -12.0&quot;. Now you printed: Average: -28
 
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.assertTrue(Assert.java:41)
