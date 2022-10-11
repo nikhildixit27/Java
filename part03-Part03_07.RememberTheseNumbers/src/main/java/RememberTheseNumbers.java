@@ -13,9 +13,10 @@ public class RememberTheseNumbers {
             if (luku == -1) {
                 break;
             }
-
             numbers.add(luku);
+            
         }
-
+        for(int i=0;i<numbers.size();i++)
+            System.out.println(numbers.get(i));
     }
 }
