@@ -1,0 +1,1 @@
+[{"className":"PrintingASpecifiedFileTest","methodName":"test1","pointNames":["04-25"],"status":"PASSED"},{"className":"PrintingASpecifiedFileTest","methodName":"test2","pointNames":["04-25"],"status":"PASSED"},{"className":"PrintingASpecifiedFileTest","methodName":"testRandom","pointNames":["04-25"],"status":"PASSED"}]
